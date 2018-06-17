@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <Description>Dotnet CLI tool allowing you to run C# (CSX) scripts.</Description>
-        <VersionPrefix>0.25.0</VersionPrefix>
+        <VersionPrefix>0.25.0-wj</VersionPrefix>
         <Authors>filipw</Authors>
         <PackageId>Dotnet.Script</PackageId>
-        <TargetFrameworks>netcoreapp2.0;netcoreapp2.1</TargetFrameworks>
+        <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
         <DebugType>portable</DebugType>
         <AssemblyName>dotnet-script</AssemblyName>
         <OutputType>Exe</OutputType>
@@ -17,7 +17,7 @@
         <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
         <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
         <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-        <PackAsTool>false</PackAsTool>
+        <PackAsTool>true</PackAsTool>
         <IsPackable>true</IsPackable>
     </PropertyGroup>    
     <ItemGroup>
